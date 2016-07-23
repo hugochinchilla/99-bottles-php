@@ -16,7 +16,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_another_verse()
   {
-    $this->markTestSkipped();
     $expected = "3 bottles of beer on the wall, " .
       "3 bottles of beer.\n" .
       "Take one down and pass it around, " .
@@ -27,7 +26,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_verse_2()
   {
-    $this->markTestSkipped();
     $expected = "2 bottles of beer on the wall, " .
       "2 bottles of beer.\n" .
       "Take one down and pass it around, " .
@@ -38,7 +36,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_verse_1()
   {
-    $this->markTestSkipped();
     $expected = "1 bottle of beer on the wall, " .
       "1 bottle of beer.\n" .
       "Take it down and pass it around, " .
@@ -49,7 +46,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_verse_0()
   {
-    $this->markTestSkipped();
     $expected = "No more bottles of beer on the wall, " .
       "no more bottles of beer.\n" .
       "Go to the store and buy some more, " .
@@ -60,7 +56,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_a_couple_verses()
   {
-    $this->markTestSkipped();
     $expected = "99 bottles of beer on the wall, " .
       "99 bottles of beer.\n" .
       "Take one down and pass it around, " .
@@ -76,8 +71,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_a_few_verses()
   {
-    $this->markTestSkipped();
-    return $this->markTestSkipped();
     $expected = "2 bottles of beer on the wall, " .
       "2 bottles of beer.\n" .
       "Take one down and pass it around, " .
@@ -98,7 +91,6 @@ class BottlesTest extends PHPUnit_Framework_TestCase
 
   public function test_the_whole_song()
   {
-    $this->markTestSkipped();
     $expected = <<<SONG
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
